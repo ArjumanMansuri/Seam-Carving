@@ -14,3 +14,5 @@ The minimum size of the target image is 2x2 pixels.
 Example: ./sc castle.png 300 200 castle2.png
 
 The program (sc) has to generate a new image of size 300x200 that retargets the image in castle.png and saves it in the file castle2.png
+
+Reference : Project Description of project 2 of COMP 6651 – Winter 2018 by Dr. Tiberiu Popa
