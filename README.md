@@ -5,6 +5,8 @@ The main idea is to find the seams that cut through the non-salient content of t
 
 A good seam basically cuts through pixels that are similar with each other. In other words, a good seam is a seam that has small variations in color along the seam. Finding such optimal seams can be done using a dynamic programming algorithm.
 
-The program has 3 arguments: an input image, width of the new target, height of the new target, output image. It retargets the input image to a new image of given sizes and writes it into a file denoted by the last argument. The minimum size of the target image is 2x2 pixels.
+The program has 3 arguments: an input image, width of the new target, height of the new target, output image. 
+It retargets the input image to a new image of given sizes and writes it into a file denoted by the last argument. 
+The minimum size of the target image is 2x2 pixels.
 Example: ./sc castle.png 300 200 castle2.png
 The program (sc) has to generate a new image of size 300x200 that retargets the image in castle.png and saves it in the file castle2.png
